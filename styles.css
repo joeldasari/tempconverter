@@ -43,7 +43,7 @@ p {
 
 @media only screen and (max-width: 600px) {
   .heading {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
   input {
     padding: 5px;
@@ -55,7 +55,7 @@ p {
     padding-top: 200px;
   }
   body {
-    background-position: -450px;
+    background-position: -500px;
   }
   p {
     font-size: 12px;
