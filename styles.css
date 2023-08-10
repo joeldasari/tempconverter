@@ -28,6 +28,7 @@ input {
 }
 
 .center {
+  width: max-content;
   padding-top: 13%;
   padding-right: 40%;
   display: flex;
@@ -40,19 +41,22 @@ p {
 
 @media only screen and (max-width: 600px) {
   .heading {
-    font-size: 0.4rem;
+    font-size: 9px;
   }
   input {
-    padding: 5px;
-    width: 150px;
+    padding: 8px;
+    width: 220px;
     font-size: 12px;
   }
   .center {
-    padding-right: 60%;
+    padding-left: 20px;
     padding-top: 200px;
   }
   p {
     font-size: 12px;
     font-weight: 900;
+  }
+  body {
+    background-position: -400px;
   }
 }
