@@ -8,9 +8,7 @@
 body {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./assets/img1.jpg");
-  /* background: url("./assets/img1.jpg"); */
+  background: url("./assets/img1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +19,6 @@ body {
   margin-bottom: 20px;
 }
 input {
-  background-color: rgba(255, 255, 255, 0.9);
   padding: 10px;
   width: 400px;
   margin-bottom: 20px;
@@ -53,9 +50,6 @@ p {
   .center {
     padding-right: 60%;
     padding-top: 200px;
-  }
-  body {
-    background-position: -500px;
   }
   p {
     font-size: 12px;
