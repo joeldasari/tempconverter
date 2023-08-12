@@ -5,58 +5,62 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+
 body {
-  height: 100vh;
-  width: 100%;
   background: url("./assets/img1.jpg");
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.heading {
-  margin-bottom: 20px;
-}
-input {
-  padding: 10px;
-  width: 400px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 5px;
-  outline: none;
-}
-
 .center {
-  width: max-content;
-  padding-top: 13%;
-  padding-right: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-p {
-  font-weight: 700;
+  padding-top: 220px;
+  padding-right: 500px;
 }
 
-@media only screen and (max-width: 600px) {
-  .heading {
-    font-size: 9px;
-  }
-  input {
-    padding: 8px;
-    width: 220px;
-    font-size: 12px;
-  }
-  .center {
-    padding-left: 20px;
-    padding-top: 200px;
-  }
-  p {
-    font-size: 12px;
-    font-weight: 900;
-  }
-  body {
-    background-position: -435px;
-  }
+.inputs {
+  margin-top: 10px;
+}
+
+.input {
+  padding: 6.5px;
+  width: 320px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+p {
+  margin-top: 6px;
+  font-weight: 900;
+}
+
+.symbol {
+  width: 30px;
+  padding: 6.5px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.clearbutton {
+  margin-top: 25px;
+}
+
+.clearBtn {
+  padding: 6.5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(45, 42, 42);
+  color: white;
+  cursor: pointer;
+}
+
+.clearBtn:hover {
+  background-color: black;
 }

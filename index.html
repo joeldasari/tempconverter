@@ -12,30 +12,43 @@
         <h1>Temperature Converter</h1>
       </div>
       <div class="inputs">
-        <p>Celsius</p>
-        <input
-          type="number"
-          name="Celsius"
-          class="input"
-          id="Celsius"
-          placeholder="Celsius"
-        />
-        <p>Kelvin</p>
-        <input
-          type="number"
-          name="Kelvin"
-          class="input"
-          id="Kelvin"
-          placeholder="Kelvin"
-        />
-        <p>Fahrenheit</p>
-        <input
-          type="number"
-          name="Fahrenheit"
-          class="input"
-          id="Fahrenheit"
-          placeholder="Fahrenheit"
-        />
+        <div>
+          <p>Celsius</p>
+          <input
+            type="number"
+            class="input"
+            id="Celsius"
+            name="Celsius"
+            placeholder="Celsius"
+          />
+          <button class="symbol">°C</button>
+        </div>
+
+        <div>
+          <p>Kelvin</p>
+          <input
+            type="number"
+            class="input"
+            id="Kelvin"
+            name="Kelvin"
+            placeholder="Kelvin"
+          />
+          <button class="symbol">K</button>
+        </div>
+        <div>
+          <p>Fahrenheit</p>
+          <input
+            type="number"
+            class="input"
+            id="Fahrenheit"
+            name="Fahrenheit"
+            placeholder="Fahrenheit"
+          />
+          <button class="symbol">°F</button>
+        </div>
+      </div>
+      <div class="clearbutton">
+        <button class="clearBtn" id="clearBtn">Clear</button>
       </div>
     </div>
     <script src="script.js"></script>
